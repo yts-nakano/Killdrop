@@ -89,8 +89,6 @@ final class ent_dead
         }
       }
     }
-    g_Scheduler.RemoveTimer(refreshMonster);
-    @refreshMonster = g_Scheduler.SetInterval(this, "timer_refreshMonster", 0.1);
   }
 
 
